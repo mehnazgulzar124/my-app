@@ -1,0 +1,345 @@
+body{
+    background-color: #fefcfc;
+}
+@font-face {
+    font-family: "sofia";
+    src: url("../font-family/sofia-pro/Sofia\ Pro\ Regular\ Az.otf");
+}
+
+.nav-btn{
+    background-color: #F54748;
+    border-radius: 1rem;
+}
+.main-nav{
+gap: 10rem;
+}
+.navbar-nav{
+    gap: 3.5rem;
+}
+.para-1{
+    font-family: "Inter";
+    font-size: 0.7rem;
+}
+.hurt-bg{
+    background-image: url("../images/hurt-bg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 15px;
+    display: flex;
+    align-items: center;
+   
+
+   
+}
+.main{
+    margin-left: 5rem;
+    margin-top: 5rem;
+    background-color: rgb(248, 228, 232);
+    width: 10rem;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+    padding: 0.1rem;
+}
+.text-section {
+    padding-left: 5rem;
+}
+.heading{
+    font-family:"sofia";
+    font-size: 2.4rem;
+    font-weight: 900;
+    padding-top: 1rem;
+    height: 150px;
+
+}
+.main-heading{
+    font-weight: 900;
+    font-size: 54px;
+}
+.red{
+    color: #f54748;
+}
+.yellow{
+    color:#fdc55e;
+}
+.vector{
+    position: relative;
+    left: 19rem;
+    bottom: 2.5rem;
+    height: 6px;
+    width: 11rem;
+}
+.small-text{
+    font-family: "sofia";
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding-top: 3rem;
+}
+.search-wrapper {
+  position: relative;
+  width: 450px;
+ margin-top: 2rem;
+
+}
+
+.search-input {
+  width: 100%;
+  padding: 8px 40px;   
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  height: 60px;
+  border: 0.5px solid black;
+  border-radius: 100px;
+}
+
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 18px;
+  height: 18px;
+  pointer-events: none; 
+}
+
+
+.left-icon {
+  left: 12px;
+}
+
+.right-icon {
+  right: 12px;
+  width: 2.7rem;
+  height: 2.7rem;
+}
+.download-video{
+    background-color: #F54748;
+    color: white;
+    width: 10rem;
+    height: 3rem;
+}
+.watch-video{
+    font-weight: 500;
+    font-family: "Poppins";
+    color: #686D77;
+
+}
+.play-icon{
+    position: relative;
+    top: 20px;
+}
+.move-down {
+  position: relative;   
+  animation: moveDown 3s infinite alternate ease-in-out;
+}
+
+@keyframes moveDown {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 20px; 
+  }
+}
+.dot-img{
+    position: relative;
+    top: 5rem;
+}
+.row-2-headind{
+    font-family: "sofia";
+    font-weight: 700;
+    font-size: 3rem;
+    color: black;
+}
+.row-2-text{
+     font-family: "sofia";
+    font-weight: 400;
+    font-size: 1.1rem;
+    padding-top: 1.5rem;
+}
+.text-row-right{
+    padding-right: 5rem;
+    text-align: center;
+    color:#494949;
+}
+.wid{
+    width: 100vw;
+    padding-top: 3rem;
+}
+.upper-line{
+    position: relative;
+    right: 17rem;
+}
+.r-6-t{
+    padding-top: 20rem;
+}
+.head-6{
+    font-weight: 800;
+    font-family: "sofia";
+    font-style: bold;
+    font-size: 3rem;
+}
+.text-6{
+    color: #626261;
+    font-weight: 400;
+        font-family: "sofia";
+        font-style:" reguler";
+        font-size: 16px;
+        padding-top: 2rem;
+
+
+}
+.online{
+ color: #191919;
+font-weight: 500;
+font-family: "sofia";
+font-size: 1.2rem;
+}
+.about{
+    width: 6rem;
+    height: 2.5rem;
+    background-color: #F54748;
+    border-radius: 25px;
+    border-color:#F54748 ;
+    color: white;
+}
+.leaf{
+    position: relative;
+    left: 500px;
+    bottom: 170px;
+}
+.fall-in-love{
+color:black;
+font-weight: 700;
+font-family: "sofia";
+font-size: 3rem;
+text-align: center;
+}
+.wrapper{
+    width: 1018px;
+    height: 50px;
+    display: flex;
+    margin-top: 2rem;
+    align-items: center;
+    gap: 35px;
+    justify-content: center;
+}
+.ramen{
+    width: 6.8rem;
+    height: 2rem;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#626261 ;
+    border: 2px solid #626261;
+    padding: 20px;
+}
+.red-bg{
+    background-color:#F54748;
+    border-color: #F54748;
+    color: white;
+}
+.sec-8{
+    padding-top: 4rem;
+}
+.grad{
+    width: 100%;
+    height: 632px;
+    background-image:linear-gradient(to top,#f8eedb,#FFFFFF);
+}
+.heading-10{
+    color:black;
+font-weight: 700;
+font-family: "sofia";
+font-size: 2.8rem;
+}
+.sec-10{
+    padding-left: 5rem;
+    padding-top: 10rem;
+}
+.main-wraper{
+    position: relative;
+}
+.man-imge{
+    position: absolute;
+    z-index: 1;
+}
+.curve{
+    position: absolute;
+    z-index: 2;
+    top: 6rem;
+}
+.siare{
+    position: absolute;
+    z-index: 3;
+    left: 16rem;
+}
+.seek{
+    position: absolute;
+    z-index: 4;
+    top: 600px;
+    left: 15rem;
+}
+.pink-line{
+    position: relative;
+    top: 15rem;
+    left: 10rem ;
+}
+.icon{
+    color: gold;
+}
+.foodhut{
+    color:#F54748;
+font-weight: 600;
+font-family: "sofia";
+font-size: 1.8rem;
+}
+.lorem{
+      color:#191919;
+font-weight: 400;
+font-family: "sofia";
+font-size: 1rem;
+padding-bottom: 1rem;
+}
+.left-div{
+    padding-left: 5rem;
+
+}
+.size{
+    font-weight: 400;
+    font-family: "sofia";
+    font-size: 1rem;
+}
+.last-section{
+    padding-top: 16rem;
+    padding-bottom: 8rem;
+}
+.gray-input{
+    background-color:#e8e8e8;
+    height: 2.5rem;
+    border-radius: 3rem;
+    width: 11rem;
+    border-color: #e8e8e8;
+      border: none;  
+  outline: none; 
+  padding-left: 1rem;
+    
+}
+.last-btn{
+    background-color:#F54748;
+    color: white;
+    height: 3rem;
+    width: 7rem;
+    border-radius: 3rem;
+    border-color: #F54748;
+      border: none;  
+  outline: none; 
+}
+.copy{
+    font-weight: 400;
+    font-family: "Inter";
+    font-size: 1rem;
+    padding-bottom: 3rem;
+}
